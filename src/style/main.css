@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'Golden_Hills';
+  src: url('./fonts/GoldenHills.ttf') format('truetype');
+}
+
+body{
+  min-height: 100vh;
+  background: rgb(254,254,254);
+background: radial-gradient(circle, rgba(254,254,254,1) 0%, rgba(70,79,252,0.1674720913756127) 100%);
+}
+
+
+
+/* Navbar */
+
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: 'Golden_Hills';
+}
+
+.nav-link{
+  font-size: 1.8rem;
+}
+
+.nav-item{
+  margin-right: 2rem;
+}
+
+.navbar{
+  box-shadow: 2px 2px 5px 1px rgb(175, 175, 175);
+}
+
+/* end of Navbar*/
+
+/* Container */
+
+.container2{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  max-width: 80%;
+  min-width: 16rem;
+  background-color: white;
+  box-shadow: 2px 2px 2px 2px rgb(213, 212, 212);
+  border-radius: 2rem;
+  text-align: center;
+  min-height: 30rem;
+  overflow: hidden;
+}
+
+.container2 > h1 {
+  color:rgb(63, 63, 63);
+  box-shadow: 2px 2px 2px 2px rgb(229, 228, 228);
+  height: 5rem;
+  line-height: 4rem;
+}
+
+/*end of Container*/
+
+/* Tasks */
+
+.todo{
+  width: 70%;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: 2px 2px 2px 2px rgb(240, 240, 240);
+}
+
+.todo h4{
+  color: rgb(67, 67, 67);
+  font-weight: normal;
+}
+
+/* end of Tasks*/
+
+
+/* Footer */
+footer{
+  position: fixed;  
+  padding:0.5rem;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  box-shadow: -2px -2px 2px 2px rgb(229, 228, 228);
+}
+
+/* end of Footer*/
