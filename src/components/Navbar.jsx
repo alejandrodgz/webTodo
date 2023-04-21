@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 const Navbar = () => {
   return (
     <>
@@ -10,13 +11,13 @@ const Navbar = () => {
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Tasks</a>
+          <Link to="/" class="nav-link active" aria-current="page">Tasks</Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Create Tasks</a>
+          <Link to='/createTask' class="nav-link">Create Tasks</Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">History</a>
+          <Link to="/history" class="nav-link">History</Link>
         </li>
       </ul>
     </div>
